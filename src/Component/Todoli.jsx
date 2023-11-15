@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { BsTrashFill } from 'react-icons/bs'
-import { AiFillEdit } from 'react-icons/ai'
+// import { AiFillEdit } from 'react-icons/ai'
 const Todoli = (props) => {
 
     const deletData = (id, props) => {
