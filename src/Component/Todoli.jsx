@@ -4,7 +4,7 @@ import { BsTrashFill } from 'react-icons/bs'
 const Todoli = (props) => {
 
     const deletData = (id, props) => {
-        console.log(props)
+        // console.log(props)
         const updateitem = props.itemData.filter((element, ind) => {
             return ind != id;
         })
